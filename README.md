@@ -33,9 +33,12 @@ Transformation options are supported. Quotations around number value are necessa
 <img src="http://res.cloudinary.com/otsuka/image/upload/c_fill,h_150,w_100/sample.jpg" width="100" height="150"/>
 ```
 
+The given options are directly passed to [CloudinaryImage.image()](http://cloudinary.com/documentation/django_image_manipulation#display_images) method. 
+The extension does not check given options are valid or not.
+
 ## Installation
 
-The extension module can be installed by pip as follows:
+You can install the extesion and its dependencies via pip.
 
 ```sh
 pip install python-markdown-extesion
